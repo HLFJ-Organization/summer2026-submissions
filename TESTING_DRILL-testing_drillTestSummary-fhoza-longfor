@@ -1,0 +1,58 @@
+============================================
+  TESTING_DRILL — TEST SUMMARY
+============================================
+Student      : fhoza-longfor
+Test         : testing_drill
+Attempt      : 1 of 4
+Start time   : 2026-07-02 01:52:16
+End time     : 2026-07-02 01:55:55
+Total time   : 3m 39s
+
+--------------------------------------------
+Question 1  [ID: pt10100 | Mode: P | Weight: 3 | Max pts: 3]
+Score  : 101%
+Time   : 3m 24s
+Submitted prog.cpp :
+--- begin ---
+
+// --------------------------------------------------------------------
+// Function: Fix the parse error(s) in this program.
+//           Program should read three whole numbers and add the
+//           FIRST and THIRD number.
+// --------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int num1, num2;
+   int num3;
+
+   //-| -------------------------------------------
+   //-| DO NOT
+   //-| -------------------------------------------
+   //-|     a) PROMPT FOR INPUT
+   //-|     b) LABEL OUTPUT.
+   //-| -------------------------------------------
+
+
+   cin >> num1 >> num2 >> num3;
+   cout << num1 + num3 << endl;
+
+   cout << endl;  // DO NOT DELETE.
+   return 0;
+}
+
+--- end ---
+
+--------------------------------------------
+Question 2  [ID: gaddis114 | Mode: D | Weight: 1 | Max pts: 2]
+Score  : 101%
+Time   : 0m 15s
+Answer :
++ testing_drill_q2AnsLIST saved on Thu Jul  2 01:55:52 2026
+1 2 T
+
+============================================
+  FINAL WEIGHTED SCORE : 101.0%
+============================================
