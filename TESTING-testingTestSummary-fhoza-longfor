@@ -1,0 +1,66 @@
+============================================
+  TESTING — TEST SUMMARY
+============================================
+Student      : fhoza-longfor
+Test         : testing
+Attempt      : 1 of 3
+Start time   : 2026-07-07 18:19:55
+End time     : 2026-07-07 18:27:35
+Total time   : 7m 40s
+
+--------------------------------------------
+Question 1  [ID: pt10100 | Mode: P | Weight: 1 | Max pts: 3]
+Score  : 101%
+Time   : 6m 33s
+Submitted prog.cpp :
+--- begin ---
+
+// --------------------------------------------------------------------
+// Function: Fix the parse error(s) in this program.
+//           Program should read three whole numbers and add the
+//           FIRST and THIRD number.
+// --------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int num1, num2;
+   int num3;
+
+   //-| -------------------------------------------
+   //-| DO NOT
+   //-| -------------------------------------------
+   //-|     a) PROMPT FOR INPUT
+   //-|     b) LABEL OUTPUT.
+   //-| -------------------------------------------
+
+
+   cin >> num1 >> num2 >> num3;
+   cout << num1 + num3 << endl;
+
+   cout << endl;  // DO NOT DELETE.
+   return 0;
+}
+
+--- end ---
+
+--------------------------------------------
+Question 2  [ID: gaddis114 | Mode: D | Weight: 1 | Max pts: 2]
+Score  : 101%
+Time   : 0m 36s
+Answer :
++ testing_q2AnsLIST saved on Tue Jul  7 18:27:01 2026
+1 2 T
+
+--------------------------------------------
+Question 3  [ID: array8090a | Mode: D | Weight: 1 | Max pts: 3]
+Score  : 1%
+Time   : 0m 31s
+Answer :
++ testing_q3AnsLIST saved on Tue Jul  7 18:27:32 2026
+1 0 A+A+A
+
+============================================
+  FINAL WEIGHTED SCORE : 67.7%
+============================================
