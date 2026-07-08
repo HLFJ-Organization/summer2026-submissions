@@ -25,14 +25,9 @@ int main()
    int count;
    int num;
 
-  //  for (count = 1; count <= 17; count++)
-  //  {
-  //     cout << count << ' ';
-  //  }
-
-   while(num!=44){
-    cout << num << endl;
-    cin >> num ;
+   for (count = 1; count <= 17; count++)
+   {
+      cout << count << ' ';
    }
 
    cout << '+' << endl; return 0; // DO NOT MOVE, MODIFY or DELETE.

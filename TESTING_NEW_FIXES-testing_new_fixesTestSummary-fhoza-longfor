@@ -3,23 +3,23 @@
 ============================================
 Student      : fhoza-longfor
 Test         : testing_new_fixes
-Attempt      : 1 of 3
-Start time   : 2026-07-08 20:48:20
-End time     : 2026-07-08 20:58:58
-Total time   : 10m 38s
+Attempt      : 2 of 3
+Start time   : 2026-07-08 20:59:19
+End time     : 2026-07-08 21:04:44
+Total time   : 5m 25s
 
 --------------------------------------------
 Question 1  [ID: array8090 | Mode: D | Weight: 2 | Max pts: 4]
 Score  : 101%
-Time   : 0m 35s
+Time   : 0m 57s
 Answer :
-+ testing_new_fixes_q1AnsLIST saved on Wed Jul  8 20:48:52 2026
++ testing_new_fixes_q1AnsLIST saved on Wed Jul  8 21:00:13 2026
 1 4 B+C+D+E
 
 --------------------------------------------
 Question 2  [ID: pt10100 | Mode: P | Weight: 2 | Max pts: 3]
 Score  : 101%
-Time   : 1m 07s
+Time   : 0m 40s
 Submitted prog.cpp :
 --- begin ---
 
@@ -56,7 +56,7 @@ int main()
 --------------------------------------------
 Question 3  [ID: 5icloop030 | Mode: P | Weight: 2 | Max pts: 4]
 Score  : 1%
-Time   : 8m 56s
+Time   : 3m 48s
 Submitted prog.cpp :
 --- begin ---
 
@@ -86,14 +86,9 @@ int main()
    int count;
    int num;
 
-  //  for (count = 1; count <= 17; count++)
-  //  {
-  //     cout << count << ' ';
-  //  }
-
-   while(num!=44){
-    cout << num << endl;
-    cin >> num ;
+   for (count = 1; count <= 17; count++)
+   {
+      cout << count << ' ';
    }
 
    cout << '+' << endl; return 0; // DO NOT MOVE, MODIFY or DELETE.
