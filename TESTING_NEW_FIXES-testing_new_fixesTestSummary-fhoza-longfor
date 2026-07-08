@@ -1,0 +1,106 @@
+============================================
+  TESTING_NEW_FIXES — TEST SUMMARY
+============================================
+Student      : fhoza-longfor
+Test         : testing_new_fixes
+Attempt      : 1 of 3
+Start time   : 2026-07-08 20:48:20
+End time     : 2026-07-08 20:58:58
+Total time   : 10m 38s
+
+--------------------------------------------
+Question 1  [ID: array8090 | Mode: D | Weight: 2 | Max pts: 4]
+Score  : 101%
+Time   : 0m 35s
+Answer :
++ testing_new_fixes_q1AnsLIST saved on Wed Jul  8 20:48:52 2026
+1 4 B+C+D+E
+
+--------------------------------------------
+Question 2  [ID: pt10100 | Mode: P | Weight: 2 | Max pts: 3]
+Score  : 101%
+Time   : 1m 07s
+Submitted prog.cpp :
+--- begin ---
+
+// --------------------------------------------------------------------
+// Function: Fix the parse error(s) in this program.
+//           Program should read three whole numbers and add the
+//           FIRST and THIRD number.
+// --------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int num1, num2;
+   int num3;
+
+   //-| -------------------------------------------
+   //-| DO NOT
+   //-| -------------------------------------------
+   //-|     a) PROMPT FOR INPUT
+   //-|     b) LABEL OUTPUT.
+   //-| -------------------------------------------
+
+
+   cin >> num1 >> num2 >> num3;
+   cout << num1 + num3 << endl;
+
+   cout << endl;  // DO NOT DELETE.
+   return 0;
+}
+
+--- end ---
+
+--------------------------------------------
+Question 3  [ID: 5icloop030 | Mode: P | Weight: 2 | Max pts: 4]
+Score  : 1%
+Time   : 8m 56s
+Submitted prog.cpp :
+--- begin ---
+
+#include <iostream>
+using namespace std;
+//-----------------------------------------------------------------------------
+// The loop below counts by 1, starting at 3, and ending when 17 is exceeded.
+//
+// GOAL: Program that reads and displays inputs UNTIL the value 44 is read.
+//
+//       Example:  Inputs 3 44 7 2    ==> outputs: 3 
+//       Example:  Inputs 3 8 2 44 1  ==> outputs: 3 8 2 
+//
+// YOUR JOB: Modify the program: 
+//           1) read value for num.
+//           2) Replace the for loop with a while loop that repeats 
+//              when num IS NOT 44.
+//              2.a Output value of num.
+//              2.b Read value for num.
+//-----------------------------------------------------------------------------
+// WARNING: DO NOT ISSUE A PROMPT for inputs.
+//          DO NOT LABEL outputs.
+//-----------------------------------------------------------------------------
+
+int main()
+{
+   int count;
+   int num;
+
+  //  for (count = 1; count <= 17; count++)
+  //  {
+  //     cout << count << ' ';
+  //  }
+
+   while(num!=44){
+    cout << num << endl;
+    cin >> num ;
+   }
+
+   cout << '+' << endl; return 0; // DO NOT MOVE, MODIFY or DELETE.
+}
+
+--- end ---
+
+============================================
+  FINAL WEIGHTED SCORE : 67.7%
+============================================
