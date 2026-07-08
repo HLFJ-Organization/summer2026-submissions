@@ -1,0 +1,29 @@
+
+// --------------------------------------------------------------------
+// Function: Fix the parse error(s) in this program.
+//           Program should read three whole numbers and add the
+//           FIRST and THIRD number.
+// --------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int num1, num2;
+   int num3;
+
+   //-| -------------------------------------------
+   //-| DO NOT
+   //-| -------------------------------------------
+   //-|     a) PROMPT FOR INPUT
+   //-|     b) LABEL OUTPUT.
+   //-| -------------------------------------------
+
+
+   cin >> num1 >> num2 >> num3;
+   cout << num1 + num3 << endl;
+
+   cout << endl;  // DO NOT DELETE.
+   return 0;
+}
+
