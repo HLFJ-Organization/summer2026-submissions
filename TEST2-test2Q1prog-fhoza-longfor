@@ -1,1 +1,35 @@
-NO PREVIOUS ANSWER
+
+#include <iostream>
+using namespace std;
+//-----------------------------------------------------------------------------
+// The loop below counts by 1, starting at 3, and ending when 17 is exceeded.
+//
+// GOAL: Program that reads and displays inputs UNTIL the value 44 is read.
+//
+//       Example:  Inputs 3 44 7 2    ==> outputs: 3 
+//       Example:  Inputs 3 8 2 44 1  ==> outputs: 3 8 2 
+//
+// YOUR JOB: Modify the program: 
+//           1) read value for num.
+//           2) Replace the for loop with a while loop that repeats 
+//              when num IS NOT 44.
+//              2.a Output value of num.
+//              2.b Read value for num.
+//-----------------------------------------------------------------------------
+// WARNING: DO NOT ISSUE A PROMPT for inputs.
+//          DO NOT LABEL outputs.
+//-----------------------------------------------------------------------------
+
+int main()
+{
+   int count;
+   int num;
+
+   for (count = 1; count <= 17; count++)
+   {
+      cout << count << ' ';
+   }
+
+   cout << '+' << endl; return 0; // DO NOT MOVE, MODIFY or DELETE.
+}
+

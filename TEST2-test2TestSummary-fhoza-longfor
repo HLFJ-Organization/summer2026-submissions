@@ -3,35 +3,70 @@
 ============================================
 Student      : fhoza-longfor
 Test         : test2
-Attempt      : 2 of 3
-Start time   : 2026-07-08 21:54:30
-End time     : 2026-07-08 22:14:46
-Total time   : 20m 16s
+Attempt      : 3 of 3
+Start time   : 2026-07-08 23:40:22
+End time     : 2026-07-09 00:10:22
+Total time   : 30m 0s
 
 --------------------------------------------
 Question 1  [ID: 5icloop030 | Mode: P | Weight: 1 | Max pts: 4]
 Score  : 1%
-Time   : 0m 50s
+Time   : 30m 00s
 Submitted prog.cpp :
 --- begin ---
-NO PREVIOUS ANSWER--- end ---
+
+#include <iostream>
+using namespace std;
+//-----------------------------------------------------------------------------
+// The loop below counts by 1, starting at 3, and ending when 17 is exceeded.
+//
+// GOAL: Program that reads and displays inputs UNTIL the value 44 is read.
+//
+//       Example:  Inputs 3 44 7 2    ==> outputs: 3 
+//       Example:  Inputs 3 8 2 44 1  ==> outputs: 3 8 2 
+//
+// YOUR JOB: Modify the program: 
+//           1) read value for num.
+//           2) Replace the for loop with a while loop that repeats 
+//              when num IS NOT 44.
+//              2.a Output value of num.
+//              2.b Read value for num.
+//-----------------------------------------------------------------------------
+// WARNING: DO NOT ISSUE A PROMPT for inputs.
+//          DO NOT LABEL outputs.
+//-----------------------------------------------------------------------------
+
+int main()
+{
+   int count;
+   int num;
+
+   for (count = 1; count <= 17; count++)
+   {
+      cout << count << ' ';
+   }
+
+   cout << '+' << endl; return 0; // DO NOT MOVE, MODIFY or DELETE.
+}
+
+--- end ---
 
 --------------------------------------------
 Question 2  [ID: pt10100 | Mode: P | Weight: 1 | Max pts: 3]
-Score  : 1%
-Time   : 19m 11s
+Score  : 0%
+Time   : 0m 00s
 Submitted prog.cpp :
 --- begin ---
 NO PREVIOUS ANSWER--- end ---
 
 --------------------------------------------
 Question 3  [ID: array8090a | Mode: D | Weight: 1 | Max pts: 3]
-Score  : 1%
-Time   : 0m 15s
+Score  : 0%
+Time   : 0m 00s
 Answer :
 + test2_q3AnsLIST saved on Wed Jul  8 22:14:43 2026
 1 0 A
 
 ============================================
-  FINAL WEIGHTED SCORE : 1.0%
+  FINAL WEIGHTED SCORE : 0.3%
 ============================================
