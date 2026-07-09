@@ -3,15 +3,15 @@
 ============================================
 Student      : fhoza-longfor
 Test         : finale
-Attempt      : 1 of 3
-Start time   : 2026-07-09 00:26:09
-End time     : 2026-07-09 00:36:05
-Total time   : 9m 56s
+Attempt      : 2 of 3
+Start time   : 2026-07-09 00:47:31
+End time     : 2026-07-09 00:49:06
+Total time   : 1m 35s
 
 --------------------------------------------
 Question 1  [ID: pt10100 | Mode: P | Weight: 1 | Max pts: 3]
 Score  : 101%
-Time   : 2m 08s
+Time   : 0m 39s
 Submitted prog.cpp :
 --- begin ---
 
@@ -43,24 +43,25 @@ int main()
    return 0;
 }
 
+
 --- end ---
 
 --------------------------------------------
 Question 2  [ID: gaddis114 | Mode: D | Weight: 1 | Max pts: 2]
 Score  : 101%
-Time   : 0m 49s
+Time   : 0m 37s
 Answer :
-+ finale_q2AnsLIST saved on Thu Jul  9 00:29:04 2026
++ finale_q2AnsLIST saved on Thu Jul  9 00:48:44 2026
 1 2 T
 
 --------------------------------------------
 Question 3  [ID: array8069 | Mode: D | Weight: 1 | Max pts: 2]
-Score  : 1%
-Time   : 6m 58s
+Score  : 101%
+Time   : 0m 17s
 Answer :
-+ finale_q3AnsLIST saved on Thu Jul  9 00:36:02 2026
-1 0 NO PREVIOUS ANSWER
++ finale_q3AnsLIST saved on Thu Jul  9 00:49:02 2026
+1 2 INT
 
 ============================================
-  FINAL WEIGHTED SCORE : 67.7%
+  FINAL WEIGHTED SCORE : 101.0%
 ============================================
