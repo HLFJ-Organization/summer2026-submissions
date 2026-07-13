@@ -1,4 +1,5 @@
 
+
 // --------------------------------------------------------------------
 // Function: Complete the following program read 2 whole numbers,
 //           calculate the sum, and print the sum.
@@ -18,13 +19,13 @@ int main()
    //-|     a) PROMPT FOR INPUT
    //-|     b) LABEL OUTPUT.
    //-| -------------------------------------------
-   cin >> num1 ;
+   cin >> num1 >>num2 ;
+   sum=num1+num2;
    
-
-
    cout << sum;
 
    cout << endl;  // DO NOT DELETE.
    return 0;
 }
+
 
