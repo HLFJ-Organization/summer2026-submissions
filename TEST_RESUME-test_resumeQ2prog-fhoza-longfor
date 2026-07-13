@@ -1,0 +1,30 @@
+
+// --------------------------------------------------------------------
+// Function: Complete the following program read 2 whole numbers,
+//           calculate the sum, and print the sum.
+//
+// Example:  Inputs:  4  8   ==> Output: 12
+//           Inputs:  0  0   ==> Output: 0
+// --------------------------------------------------------------------
+#include <iostream>
+using namespace std;
+int main()
+{
+   int num1, num2, sum;
+
+   //-| -------------------------------------------
+   //-| DO NOT
+   //-| ===========================================
+   //-|     a) PROMPT FOR INPUT
+   //-|     b) LABEL OUTPUT.
+   //-| -------------------------------------------
+   cin >> num1 ;
+   
+
+
+   cout << sum;
+
+   cout << endl;  // DO NOT DELETE.
+   return 0;
+}
+
