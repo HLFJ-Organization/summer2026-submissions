@@ -1,0 +1,92 @@
+============================================
+  TEST_5 — TEST SUMMARY
+============================================
+Student      : fhoza-longfor
+Test         : test_5
+Attempt      : 1 of 3
+Start time   : 2026-08-18 16:30:08
+End time     : 2026-08-18 17:00:38
+Total time   : 30m 30s
+
+--------------------------------------------
+Question 1  [ID: array8090a | Mode: D | Weight: 1 | Max pts: 3]
+Score  : 1%
+Time   : 1m 05s
+Answer :
++ test_5_q1AnsLIST saved on Tue Aug 18 16:31:10 2026
+1 0 A+B+C
+
+--------------------------------------------
+Question 2  [ID: pt10210 | Mode: P | Weight: 1 | Max pts: 3]
+Score  : 101%
+Time   : 1m 36s
+Submitted prog.cpp :
+--- begin ---
+
+// ------------------------------------------------------------------
+// Function: Run the following program and provide the input(s) to
+//           cause the program to print out the value 16.
+// ------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int num;
+   cin >> num;
+   cout << num * num << endl;
+   return 0;
+}
+
+--- end ---
+
+--------------------------------------------
+Question 3  [ID: pt30052 | Mode: P | Weight: 1 | Max pts: 7]
+Score  : 1%
+Time   : 24m 01s
+Submitted prog.cpp :
+--- begin ---
+
+// ------------------------------------------------------------------
+// Function: Complete the following program so that it reads in a time
+//           as a decimal value, and outputs it in the form HH:MM.
+//
+// Example:  Input: 10.5 ==> Output: 10:30
+//           Input:  4.25 ==> Output: 4:15 
+//
+// ------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int hour, min;
+   float hrDecimal;
+
+   // --------------------------------------------------------------------
+   // WARNING: DO NOT ISSUE PROMPTS or LABEL OUTPUT.
+   // --------------------------------------------------------------------
+
+
+   cout << endl; return 0;  // DO NOT DELETE.
+}
+
+--- end ---
+
+--------------------------------------------
+Question 4  [ID: array8025 | Mode: P | Weight: 1 | Max pts: 4]
+Score  : 101%
+Time   : 1m 11s
+prog.cpp : (not recorded)
+
+--------------------------------------------
+Question 5  [ID: arrayterms105 | Mode: D | Weight: 1 | Max pts: 8]
+Score  : 1%
+Time   : 2m 35s
+Answer :
++ test_5_q5AnsLIST saved on Tue Aug 18 17:00:34 2026
+1 -8 1.wasdsdjlljkflajkdfuioufkdlanadjvhioczhvizcljvkzxvciozxjcxzklcxjcijciauid\n2.alkdjksljdlasldjasjhdklasjhldasjhlajsdjasldjaskljdkalsjdasjdaksaljdkals\n3.akldjlaksdjsakljdkasjdklasjkdlajs\n4.akdjaksdjasjdlasjkdasj\n5.kalsjdklsajdklasjkldsajkldsjkldjkldasjdklsjas\n \n
+
+============================================
+  FINAL WEIGHTED SCORE : 41.0%
+============================================

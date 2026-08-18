@@ -1,0 +1,16 @@
+
+// ------------------------------------------------------------------
+// Function: Run the following program and provide the input(s) to
+//           cause the program to print out the value 16.
+// ------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int num;
+   cin >> num;
+   cout << num * num << endl;
+   return 0;
+}
+

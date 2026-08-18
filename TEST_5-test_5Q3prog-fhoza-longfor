@@ -1,0 +1,25 @@
+
+// ------------------------------------------------------------------
+// Function: Complete the following program so that it reads in a time
+//           as a decimal value, and outputs it in the form HH:MM.
+//
+// Example:  Input: 10.5 ==> Output: 10:30
+//           Input:  4.25 ==> Output: 4:15 
+//
+// ------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int hour, min;
+   float hrDecimal;
+
+   // --------------------------------------------------------------------
+   // WARNING: DO NOT ISSUE PROMPTS or LABEL OUTPUT.
+   // --------------------------------------------------------------------
+
+
+   cout << endl; return 0;  // DO NOT DELETE.
+}
+
